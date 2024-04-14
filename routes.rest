@@ -1,0 +1,13 @@
+GET http://localhost:3000/servers
+###
+POST http://localhost:3000/servers
+Content-Type: application/json
+
+{
+    "name": "Johen Dev",
+    "email": "johenDev@gmail.com",
+    "age": 20
+}
+
+###
+DELETE http://localhost:3000/servers/661c683b2f52f43f2544ec66
